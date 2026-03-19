@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Verdana, Geneva, Calibri;
+    background-color: pink; 
+    padding: 20px;
+}
+
+.tabla-estilo {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.tabla-estilo th, .tabla-estilo td {
+    border: 1px solid red; 
+    padding: 10px; 
+    text-align: left;
+}
+
+.tabla-estilo th {
+    background-color: fuchsia; 
+    color: white;
+}
+
+button {
+    background-color: indianred;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
