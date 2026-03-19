@@ -1,33 +1,24 @@
+
 body {
-    font-family: Arial, Verdana, Geneva, Calibri;
-    background-color: pink; 
-    padding: 20px;
+    font-family: Arial, Vendana;
+    background-color: pink;
+    padding: 30px;
 }
 
-.Ayudantias, .Habilidades {
+table {
+    border-collapse: collapse;
     width: 100%;
-    border-collapse: collapse; 
+    max-width: 400px;
     background-color: white;
-    margin-bottom: 20px;
 }
 
-.Ayudantias th, .Ayudantias td, .Habilidades th, .Habilidades td {
-    border: 5px solid red; 
-    padding: 10px; 
+th, td {
+    border: 1px solid black;
+    padding: 10px;
     text-align: left;
 }
 
-.Ayudantias th, .Habilidades th {
-    background-color: fuchsia; 
-    color: white;
-}
-
-#boton {
-    background-color: indianred;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-weight: bold;
+th {
+    background-color: white;
+    color: black;
 }
