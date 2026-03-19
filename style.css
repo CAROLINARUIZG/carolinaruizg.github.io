@@ -6,7 +6,7 @@ body {
 
 .Ayudantias, .Habilidades {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: collapse; 
     background-color: white;
     margin-bottom: 20px;
 }
@@ -18,13 +18,13 @@ body {
 }
 
 .Ayudantias th, .Habilidades th {
-    background-color: white; 
-    color: black;
+    background-color: fuchsia; 
+    color: white;
 }
 
-button {
+#boton {
     background-color: indianred;
-    color: white; 
+    color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
