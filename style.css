@@ -4,28 +4,30 @@ body {
     padding: 20px;
 }
 
-.tabla-estilo {
+.Ayudantias, .Habilidades {
     width: 100%;
     border-collapse: collapse;
     background-color: white;
     margin-bottom: 20px;
 }
 
-.tabla-estilo th, .tabla-estilo td {
+.Ayudantias th, .Ayudantias td, .Habilidades th, .Habilidades td {
     border: 5px solid red; 
     padding: 10px; 
     text-align: left;
 }
 
-.tabla-estilo th {
-    background-color: fuchsia; 
-    color: white;
+.Ayudantias th, .Habilidades th {
+    background-color: white; 
+    color: black;
 }
 
 button {
     background-color: indianred;
+    color: white; 
     border: none;
-    padding: 10px;
+    padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
+    font-weight: bold;
 }
